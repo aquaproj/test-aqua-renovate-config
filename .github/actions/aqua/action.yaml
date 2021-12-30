@@ -1,0 +1,8 @@
+name: aqua install
+description: aqua install
+runs:
+  using: composite
+  steps:
+    - uses: aquaproj/aqua-installer@v0.4.0
+      with:
+        aqua_version: v0.8.7
