@@ -27,6 +27,6 @@ packages:
 - name: gohugoio/hugo
   version: v0.91.0  # renovate: depName=gohugoio/hugo
 - name: cli/cli
-  version: 'v2.3.0' # renovate: depName=cli/cli
+  version: 'v2.4.0' # renovate: depName=cli/cli
 - name: junegunn/fzf
   version: "0.28.0" # renovate: depName=junegunn/fzf
