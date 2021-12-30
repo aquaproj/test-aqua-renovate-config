@@ -5,5 +5,19 @@
     "github>aquaproj/aqua-renovate-config:installer-script#0.1.2(install-aqua\\.sh)"
   ],
   "prHourlyLimit": 0,
-  "enabledManagers": ["regex"]
+  "enabledManagers": ["regex"],
+  "regexManagers": [
+    {
+      "fileMatch": ["\\.?aqua\\.ya?ml"],
+      "matchStrings": [
+        " +(version|ref): (?<currentValue>[^'\"\\n]+?) +# renovate: depName=(?<depName>[^\\n]+)",
+        " +(version|ref): \"(?<currentValue>[^'\"\\n]+?)\" +# renovate: depName=(?<depName>[^\\n]+)",
+        " +(version|ref): '(?<currentValue>[^'\"\\n]+?)' +# renovate: depName=(?<depName>[^\\n]+)",
+        " +name: (?<depName>[^'\"\\n]*)@(?<currentValue>[^'\"\\n]+)",
+        " +name: \"(?<depName>[^'\\n]*)@(?<currentValue>[^'\"\\n]+)\"",
+        " +name: '(?<depName>[^\"\\n]*)@(?<currentValue>[^'\"\\n]+)'"
+      ],
+      "datasourceTemplate": "github-releases"
+    }
+  ]
 }
