@@ -18,7 +18,7 @@ registries:
   path: registry.yaml
 
 packages:
-- name: istio/istio/istioctl@1.12.0
+- name: istio/istio/istioctl@1.12.1
 - name: suzuki-shunsuke/tfcmt@v2.0.0
 - name: 'suzuki-shunsuke/cmdx@v1.6.0'
 - name: "suzuki-shunsuke/github-comment@v4.0.0"
