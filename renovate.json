@@ -1,8 +1,8 @@
 {
   "extends": [
     "config:base",
-    "github>aquaproj/aqua-renovate-config#0.1.2",
-    "github>aquaproj/aqua-renovate-config:installer-script#0.1.2(install-aqua\\.sh)"
+    "github>aquaproj/aqua-renovate-config",
+    "github>aquaproj/aqua-renovate-config:installer-script(install-aqua\\.sh)"
   ],
   "prHourlyLimit": 0,
   "enabledManagers": ["regex"],
@@ -10,9 +10,6 @@
     {
       "fileMatch": ["\\.?aqua\\.ya?ml"],
       "matchStrings": [
-        " +(version|ref): (?<currentValue>[^'\" \\n]+?) +# renovate: depName=(?<depName>[^\\n]+)",
-        " +(version|ref): \"(?<currentValue>[^'\" \\n]+?)\" +# renovate: depName=(?<depName>[^\\n]+)",
-        " +(version|ref): '(?<currentValue>[^'\" \\n]+?)' +# renovate: depName=(?<depName>[^\\n]+)",
         " +name: (?<depName>[^'\"\\n]*)@(?<currentValue>[^'\"\\n]+)",
         " +name: \"(?<depName>[^'\\n]*)@(?<currentValue>[^'\"\\n]+)\"",
         " +name: '(?<depName>[^\"\\n]*)@(?<currentValue>[^'\"\\n]+)'"
