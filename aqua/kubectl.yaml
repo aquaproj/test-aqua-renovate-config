@@ -1,6 +1,6 @@
 packages:
-- name: kubernetes/kubectl@v1.21.8
+- name: kubernetes/kubectl@v1.26.0
 - name: kubernetes/kubectl
   version: v1.21.8
 - name: kubernetes/kubectl
-  version: v1.21.8  # renovate: depName=kubernetes/kubectl
+  version: v1.26.0  # renovate: depName=kubernetes/kubectl
