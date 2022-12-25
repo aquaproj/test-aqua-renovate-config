@@ -51,4 +51,4 @@ packages:
   version: v1.21.8
 - name: kubernetes/kubectl
   version: v1.21.8  # renovate: depName=kubernetes/kubectl
-- name: golang.org/x/tools/gopls@gopls/v0.10.0
+- name: golang.org/x/tools/gopls@v0.10.0
