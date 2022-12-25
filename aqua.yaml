@@ -22,7 +22,7 @@ packages:
 - name: suzuki-shunsuke/tfcmt@v2.0.0
 - name: 'suzuki-shunsuke/cmdx@v1.6.0'
 - name: "suzuki-shunsuke/github-comment@v4.0.0"
-- name: 'aelsabbahy/goss/kgoss@v0.3.10'
+- name: 'aelsabbahy/goss/kgoss@v0.21.4'
 - name: "cloudflare/cfssl/mkbundle@v1.6.0"
 - name: gohugoio/hugo
   version: v0.91.0  # renovate: depName=gohugoio/hugo
@@ -30,9 +30,9 @@ packages:
   version: 'v2.3.0' # renovate: depName=cli/cli
 - name: junegunn/fzf
   version: "0.28.0" # renovate: depName=junegunn/fzf
-- name: minamijoyo/tfmigrate@v0.2.0  # hello
-- name: 'minamijoyo/tfupdate@v0.6.0' # hello
-- name: "minamijoyo/tfschema@v0.7.0"  # hello
+- name: minamijoyo/tfmigrate@v0.21.4  # hello
+- name: 'minamijoyo/tfupdate@v0.21.4' # hello
+- name: "minamijoyo/tfschema@v0.21.4"  # hello
 
 - name: kubernetes-sigs/kustomize
   version: kustomize/v4.0.0
