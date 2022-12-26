@@ -14,9 +14,26 @@ registries:
   type: github_content
   repo_owner: aquaproj
   repo_name: aqua-registry
-  ref: "v0.12.0"  # renovate: depName=aquaproj/aqua-registry
+  ref: "v0.12.0" # renovate: depName=aquaproj/aqua-registry
   path: registry.yaml
-
+- name: digest
+  type: github_content
+  repo_owner: aquaproj
+  repo_name: aqua-registry
+  ref: 215b5f5aaaf9d1337b93780c13202e1434ed2c98 # renovate: tag=v3.107.0 depName=aquaproj/aqua-registry
+  path: registry.yaml
+- name: digest_single
+  type: github_content
+  repo_owner: aquaproj
+  repo_name: aqua-registry
+  ref: '215b5f5aaaf9d1337b93780c13202e1434ed2c98' # renovate: tag=v3.107.0 depName=aquaproj/aqua-registry
+  path: registry.yaml
+- name: digest_double
+  type: github_content
+  repo_owner: aquaproj
+  repo_name: aqua-registry
+  ref: "215b5f5aaaf9d1337b93780c13202e1434ed2c98" # renovate: tag=v3.107.0 depName=aquaproj/aqua-registry
+  path: registry.yaml
 packages:
 - name: istio/istio/istioctl@1.12.0
 - name: suzuki-shunsuke/tfcmt@v2.0.0
@@ -25,31 +42,31 @@ packages:
 - name: 'aelsabbahy/goss/kgoss@v0.3.10'
 - name: "cloudflare/cfssl/mkbundle@v1.6.0"
 - name: gohugoio/hugo
-  version: v0.91.0  # renovate: depName=gohugoio/hugo
+  version: v0.91.0 # renovate: depName=gohugoio/hugo
 - name: cli/cli
   version: 'v2.3.0' # renovate: depName=cli/cli
 - name: junegunn/fzf
   version: "0.28.0" # renovate: depName=junegunn/fzf
-- name: minamijoyo/tfmigrate@v0.2.0  # hello
+- name: minamijoyo/tfmigrate@v0.2.0 # hello
 - name: 'minamijoyo/tfupdate@v0.6.0' # hello
-- name: "minamijoyo/tfschema@v0.7.0"  # hello
-
+- name: "minamijoyo/tfschema@v0.7.0" # hello
 - name: kubernetes-sigs/kustomize
   version: kustomize/v4.0.0
 - name: kubernetes-sigs/kustomize
   version: kustomize/v4.0.0 # renovate: depName=kubernetes-sigs/kustomize
-- name: kubernetes-sigs/kustomize@kustomize/v4.0.0  # hello
-
+- name: kubernetes-sigs/kustomize@kustomize/v4.0.0 # hello
 - name: golang/go
   version: 1.16.10
 - name: golang/go
   version: 1.16.10 # renovate: depName=golang/go
 - name: golang/go@1.16.10
-
 - name: kubernetes/kubectl@v1.21.8
 - name: kubernetes/kubectl
   version: v1.21.8
 - name: kubernetes/kubectl
-  version: v1.21.8  # renovate: depName=kubernetes/kubectl
+  version: v1.21.8 # renovate: depName=kubernetes/kubectl
 - name: golang.org/x/tools/gopls@v0.10.0
 - name: kubernetes/kubectl-convert@v1.25.0
+- name: aquaproj/aqua-installer@c553e04154f1f3b7e5eb35da058db3bb782bee8a # renovate: tag=v1.1.2
+- name: 'aquaproj/aqua-installer@c553e04154f1f3b7e5eb35da058db3bb782bee8a' # renovate: tag=v1.1.2
+- name: "aquaproj/aqua-installer@c553e04154f1f3b7e5eb35da058db3bb782bee8a" # renovate: tag=v1.1.2
