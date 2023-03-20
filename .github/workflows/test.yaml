@@ -14,28 +14,28 @@ jobs:
         uses: actions/checkout@v2
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: v0.8.9  # hello
+          aqua_version: v1.37.2  # hello
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: 'v0.8.9'  # hello
+          aqua_version: 'v1.37.2'  # hello
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: "v0.8.9"  # hello
+          aqua_version: "v1.37.2"  # hello
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: v0.8.9
+          aqua_version: v1.37.2
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: 'v0.8.9'
+          aqua_version: 'v1.37.2'
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: "v0.8.9"
+          aqua_version: "v1.37.2"
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: v0.8.9 # hello
+          aqua_version: v1.37.2 # hello
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: 'v0.8.9' # hello
+          aqua_version: 'v1.37.2' # hello
       - uses: aquaproj/aqua-installer@v0.4.0
         with:
-          aqua_version: "v0.8.9" # hello
+          aqua_version: "v1.37.2" # hello
