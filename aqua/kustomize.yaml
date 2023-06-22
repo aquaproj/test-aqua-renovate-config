@@ -2,5 +2,5 @@ packages:
 - name: kubernetes-sigs/kustomize
   version: kustomize/v4.0.0
 - name: kubernetes-sigs/kustomize
-  version: kustomize/v4.0.0 # renovate: depName=kubernetes-sigs/kustomize
-- name: kubernetes-sigs/kustomize@kustomize/v4.0.0  # hello
+  version: kustomize/v4.5.7 # renovate: depName=kubernetes-sigs/kustomize
+- name: kubernetes-sigs/kustomize@kustomize/v4.5.7  # hello
