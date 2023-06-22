@@ -8,13 +8,13 @@ registries:
   type: github_content
   repo_owner: aquaproj
   repo_name: aqua-registry
-  ref: 'v0.12.0' # renovate: depName=aquaproj/aqua-registry
+  ref: 'v0.14.4' # renovate: depName=aquaproj/aqua-registry
   path: registry.yaml
 - name: bar
   type: github_content
   repo_owner: aquaproj
   repo_name: aqua-registry
-  ref: "v0.12.0" # renovate: depName=aquaproj/aqua-registry
+  ref: "v0.14.4" # renovate: depName=aquaproj/aqua-registry
   path: registry.yaml
 - name: digest
   type: github_content
