@@ -40,7 +40,7 @@ packages:
 - name: 'suzuki-shunsuke/cmdx@v1.6.0'
 - name: "suzuki-shunsuke/github-comment@v4.0.0"
 - name: 'aelsabbahy/goss/kgoss@v0.3.10'
-- name: "cloudflare/cfssl/mkbundle@v1.6.0"
+- name: "cloudflare/cfssl/mkbundle@v1.6.5"
 - name: gohugoio/hugo
   version: v0.91.0 # renovate: depName=gohugoio/hugo
 - name: cli/cli
