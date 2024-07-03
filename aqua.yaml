@@ -65,7 +65,7 @@ packages:
   version: v1.21.8
 - name: kubernetes/kubectl
   version: v1.21.8 # renovate: depName=kubernetes/kubectl
-- name: golang.org/x/tools/gopls@v0.10.0
+- name: golang.org/x/tools/gopls@v0.16.1
 - name: kubernetes/kubectl-convert@v1.25.0
 - name: aquaproj/aqua-installer@c553e04154f1f3b7e5eb35da058db3bb782bee8a # renovate: tag=v1.1.2
 - name: 'aquaproj/aqua-installer@c553e04154f1f3b7e5eb35da058db3bb782bee8a' # renovate: tag=v1.1.2
